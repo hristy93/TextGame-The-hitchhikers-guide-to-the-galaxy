@@ -118,9 +118,17 @@ UseObject-Phone
 TakeObject-Toothbrush
 1-2-3-2-2-2-1#
 
+1-2-3-2-2-2-1-1
+UseObject-Phone
+1-2-3-2-2-2-1-1#
+
 1-2-3-2-2-2-2
 UseObject-Phone
 1-2-3-2-2-2-2#
+
+1-2-3-2-2-1-1-1
+UseObject-Phone
+1-2-3-2-2-1-1-1#
 
 1-2-3-2-2-3-1
 LookOutside

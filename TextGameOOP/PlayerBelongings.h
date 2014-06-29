@@ -5,13 +5,29 @@
 
 class PlayerBelongings
 {
-private:
+protected:
 	bool isTaken = false;  
 	bool isFound = false;
 public:
 	PlayerBelongings()
 	{
 
+	}
+	void Taken()
+	{
+		isTaken = true;
+	}
+	bool IsTaken()
+	{
+		return isTaken;
+	}
+	void Found()
+	{
+		isFound = true;
+	}
+	bool IsFound()
+	{
+		return isFound;
 	}
 	virtual void PrintUseMessage() = 0;
 };
@@ -21,7 +37,15 @@ class Gown : public PlayerBelongings
 private:
 	bool isOpened = false;
 public:
-	 void PrintUseMessage()
+	void Opened()
+	{
+		isOpened = true;
+	}
+	bool IsOpened()
+	{
+		return isOpened;
+	}
+	void PrintUseMessage()
 	{
 		std::cout << "Works";
 	}
@@ -54,9 +78,13 @@ public:
 	{
 		std::cout << "Works";
 	}
-	void IsUsed() 
+	void Used() 
 	{
 		isUsed = true;
+	}
+	bool IsUsed()
+	{
+		return isUsed;
 	}
 };
 
@@ -69,6 +97,14 @@ public:
 	{
 		std::cout << "Works";
 	}
+	void Read()
+	{
+		isRead = true;
+	}
+	bool IsRead()
+	{
+		return isRead;
+	}
 };
 
 class Lamp : public PlayerBelongings
@@ -76,13 +112,17 @@ class Lamp : public PlayerBelongings
 private:
 	bool isOn = false;
 public:
-	Lamp() : PlayerBelongings()
-	{
-
-	}
 	void PrintUseMessage()
 	{
 		std::cout << "Works1";
+	}
+	void On()
+	{
+		isOn = true;
+	}
+	bool IsOn()
+	{
+		return isOn;
 	}
 
 };
@@ -96,6 +136,14 @@ public:
 	{
 		std::cout << "Works";
 	}
+	void Used()
+	{
+		isUsed = true;
+	}
+	bool IsUsed()
+	{
+		return isUsed;
+	}
 };
 
 class Analgesic : public PlayerBelongings
@@ -107,12 +155,10 @@ public:
 	{
 		 std::cout << "Works";
 	}
-
 	bool IsUsed()
 	{
 		return isUsed;
 	}
-
 	void Used()
 	{
 		isUsed = true;

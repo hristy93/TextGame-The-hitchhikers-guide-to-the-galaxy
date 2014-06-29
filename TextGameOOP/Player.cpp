@@ -42,7 +42,7 @@ void Player::DieFrom(std::string something)
 		Message msg("1-2-3-1-1");
 		msg.ShowMessage();
 	}
-	
+
 }
 
 void Player::StandUp()
@@ -58,19 +58,21 @@ void Player::UseObject(PlayerBelongings* object)
 
 	if (objectType == "class Door")
 	{
+		door->Used();
 		Message msg("1-2-3-2-2-3-2");
 		msg.ShowMessage();
 	}
 	if (objectType == "class Lamp")
 	{
+		lamp->On();
 		Message msg("1-2");
 		msg.ShowMessage();
 	}
 	if (objectType == "class Phone")
 	{
-		phone->IsUsed();
 		if (analgesic->IsUsed())
 		{
+			phone->Used();
 			Message msg("1-2-3-2-2-3");
 			msg.ShowMessage();
 		}
@@ -79,7 +81,7 @@ void Player::UseObject(PlayerBelongings* object)
 			Message msg("1-2-4");
 			msg.ShowMessage();
 		}
-		
+
 	}
 	if (objectType == "class Analgesic")
 	{
@@ -95,6 +97,7 @@ void Player::OpenObject(PlayerBelongings* object)
 
 	if (objectType == "class Gown")
 	{
+		gown->Opened();
 		Message msg("1-2-3-2");
 		msg.ShowMessage();
 	}
@@ -106,17 +109,19 @@ void Player::GoToObject(PlayerBelongings* object)
 
 	if (objectType == "class Toothbrush")
 	{
-
+		toothbrush->Found();
 		Message msg("1-2-1");
 		msg.ShowMessage();
 	}
 	if (objectType == "class Screwdriver")
 	{
+		screwdriver->Found();
 		Message msg("1-2-2");
 		msg.ShowMessage();
 	}
 	if (objectType == "class Gown")
 	{
+		gown->Found();
 		Message msg("1-2-3");
 		msg.ShowMessage();
 	}
@@ -126,16 +131,34 @@ void Player::TakeObject(PlayerBelongings* object)
 {
 	std::string objectType = typeid(*object).name();
 	AddToInventory(object);
+	//To fix it up - find id in messages.txt!!!
 	if (objectType == "class Toothbrush")
 	{
-		Message msg("1-2-3-2-2-1");
-		msg.ShowMessage();
-		
+		toothbrush->Taken();
+		if (screwdriver->IsTaken())
+		{
+			Message msg("1-2-3-2-2-2-1");
+			msg.ShowMessage();
+		}
+		else
+		{
+			Message msg("1-2-3-2-2-1");
+			msg.ShowMessage();
+		}
 	}
 	if (objectType == "class Screwdriver")
 	{
-		Message msg("1-2-3-2-2-2");
-		msg.ShowMessage();
+		screwdriver->Taken();
+		if (toothbrush->IsTaken())
+		{
+			Message msg("1-2-3-2-2-1-1");
+			msg.ShowMessage();
+		}
+		else
+		{
+			Message msg("1-2-3-2-2-2");
+			msg.ShowMessage();
+		}
 	}
 }
 

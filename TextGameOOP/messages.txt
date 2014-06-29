@@ -104,11 +104,21 @@ As you pick up the toothbrush a tree outside the window collapses. There is no c
 (2)Use the phone.
 1-2-3-2-2-1#
 
+1-2-3-2-2-1-1
+Ass you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn't that strange!? 
+(1)Use the phone.
+1-2-3-2-2-1-1#
+
 1-2-3-2-2-2
 Ass you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn't that strange!? 
 (1)Take the toothbrush.
 (2)Use the phone.
 1-2-3-2-2-2#
+
+1-2-3-2-2-2-1
+As you pick up the toothbrush a tree outside the window collapses. There is no causal relationship between these two events.
+(1)Use the phone.
+1-2-3-2-2-2-1#
 
 1-2-3-2-2-3
 You pick up the receiver. A moment later, the dialing tone is suddenly cut off. Glancing through the window you can't help but notice the large old oak tree of which you are particularly fond crashing down through the phone cable. Shouldn't you be taking more interest in events in the world around you? While you've got it?

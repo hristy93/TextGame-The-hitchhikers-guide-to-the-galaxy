@@ -197,38 +197,38 @@ void Game::Run()
 	string messageNum = "1";
 	while (!this->ended)
 	{
-		if (messageNum == "1")
-			this->ShowMessage(messageNum);
-		cin >> choice;
-		switch (choice)
-		{
-		case 1:
-		{
-			messageNum += "-1";
-			this->ShowMessage(messageNum);
-			break;
-		}
-		case 2:
-		{
-			messageNum += "-2";
-			this->ShowMessage(messageNum);
-			break;
-		}
-		case 3:
-		{
-			messageNum += "-3";
-			this->ShowMessage(messageNum);
-			break;
-		}
-		case 4:
-		{
-			messageNum += "-4";
-			this->ShowMessage(messageNum);
-			break;
-		}
-		}
+	if (messageNum == "1")
+	this->ShowMessage(messageNum);
+	cin >> choice;
+	switch (choice)
+	{
+	case 1:
+	{
+	messageNum += "-1";
+	this->ShowMessage(messageNum);
+	break;
 	}
-*/
+	case 2:
+	{
+	messageNum += "-2";
+	this->ShowMessage(messageNum);
+	break;
+	}
+	case 3:
+	{
+	messageNum += "-3";
+	this->ShowMessage(messageNum);
+	break;
+	}
+	case 4:
+	{
+	messageNum += "-4";
+	this->ShowMessage(messageNum);
+	break;
+	}
+	}
+	}
+	*/
 
 	/*Message msg1("1-0");
 	msg1.ShowMessage()*/
