@@ -1,18 +1,19 @@
 1
 You wake up. The room is spinning very gently round your head. Or at least it would be if you could see it which you can't. It is pitch black.
-(1)Bump into everything and kill yourself.
+(1)Bump into everything and try to find your way into the darkness.
 (2)Turn on the lights
 1#
 
 1-1
 You can’t stay in bed all day, so you stand up very slowly. Unfortunately you hit your head on the washbasin while you stagger to your feet. Poor guy, you should’ve turn on the lights.
-Astoundingly, a bulldozer pokes through your wall. However, you have no time for surprise because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass. You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.
+Astoundingly, a bulldozer pokes through your wall. However, you have no time for surprise, because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass.
+You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.
 Better luck next life.
 1-1#
 
 1-2
 The bedroom is a mess.
-It is a small bedroom with a faded carpet and old wallpaper. There is a washbasin, a chair with a tatty dressing gown slung over it, and a window with the curtains drawn. Near the exit leading is a phone.There is a flathead screwdriver (outside the bed) and a toothbrush (outside the bed).It is very difficult, but you manage to get up. 
+It is a small bedroom with a faded carpet and old wallpaper. There is a washbasin, a chair with a tatty dressing gown slung over it, and a window with the curtains drawn. Near the exit leading is a phone. There is a flathead screwdriver (outside the bed) and a toothbrush (outside the bed). It is very difficult, but you manage to get up. 
 (1)Get the toothbrush.
 (2)Get the flathead screwdriver.
 (3)Get the gown.
@@ -27,7 +28,7 @@ The room is still spinning. It dips and sways a little. You lunge for the toothb
 1-2-1#
 
 1-2-2
-The room is still spinning. It dips and sways a little. You try to get the flathead screwdriver, but it dances by you like a thing possessed and you can get a hold of it. 
+The room is still spinning. It dips and sways a little. You try to get the flathead screwdriver, but it dances by you like a thing possessed and you can't get a hold of it. 
 (1)Get the toothbrush.
 (2)Get the gown.
 (3)Use the phone.
@@ -185,5 +186,20 @@ Better luck next life.
 
 1-2-3-2-2-3-2-2-2-2-2
 Ass you are waiting to be smashed by the bulldozer a man offers you help. His says that his name is Ford. 
-To be continued …
+To be continued . . .
 1-2-3-2-2-3-2-2-2-2-2#
+
+restart
+DON'T PANIC ! 
+Do you wish to play again and save yourself or you'll let the freakin' Vogons destroy the Earth.
+(1)Play again
+(2)Exit
+restart#
+
+congrats
+DON'T PANIC ! 
+Congrats - you've survied and later on you will be saved by Ford. He will hitchhike both of you to a Vogon ship seconds before the Earth is destroyed.Sorry but it can't be saved.
+So,you'll ask what's gonna happen to you next. To find you go and read (watch) The Hitchhiker's Guide to the Galaxy. Hope you enjoyed the game :)
+(1)Play again
+(2)Exit
+congrats#

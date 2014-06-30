@@ -27,11 +27,14 @@ void Game::Run()
 	Game::analgesic = new Analgesic;*/
 
 	Player player;
+	GameObjects gameObjects();
 	int choice;
 	string optionNum = "1";
 	string messageNum = "";
+	ended = false;
+	finished = false;
 	player.WakeUp();
-	while (!ended)
+	while (!ended && !finished)
 	{
 		cin >> choice;
 		char ch = '0' + choice;
@@ -42,6 +45,7 @@ void Game::Run()
 		option.ChooseOption();
 		string optionName = option.GetOptionName();
 		string optionAdditionalInfo = option.GetOptionAdditionalInfo();
+
 		if (optionName == "UseObject")
 		{
 			if (optionAdditionalInfo == "Door")
@@ -123,6 +127,7 @@ void Game::Run()
 			if (optionAdditionalInfo == "Miracle")
 			{
 				player.HopeFor("Miracle");
+				finished = true;
 				//messageNum = "1-2-3-2-2-3-2-2-2-2-2";
 			}
 		}
@@ -150,6 +155,7 @@ void Game::Run()
 			if (optionAdditionalInfo == "MrProsser")
 			{
 				player.TalkTo("MrProsser");
+				this->ended = true;
 				//messageNum = "1-2-1";
 			}
 		}
@@ -185,8 +191,22 @@ void Game::Run()
 			if (optionAdditionalInfo == "PocketFluff")
 			{
 				player.PlayWith("PocketFluff");
+				this->ended = true;
 				//messageNum = "1-2-3-3";
 			}
+		}
+	}
+	if (ended || finished)
+	{
+		int result;
+		do
+		{
+			cin >> result;
+		}
+		while (result != 1 && result != 2);
+		if (result == 1)
+		{
+			Game::Restart();
 		}
 	}
 
@@ -249,13 +269,18 @@ void Game::Run()
 	return;*/
 }
 
+void Game::Restart()
+{
+	system("cls");
+	Game::Run();
+}
 
 int main()
 {
 	Game game;
 	game.Run();
-	int a;
-	cin >> a;
+	//int a;
+	//cin >> a;
 	return 0;
 
 }

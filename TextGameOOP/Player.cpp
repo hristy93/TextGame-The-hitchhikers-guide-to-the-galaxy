@@ -16,6 +16,7 @@ void Player::DieFrom(std::string something)
 	{
 		Message msg("1-1");
 		msg.ShowMessage();
+		
 	}
 	if (something == "RefusingToGoOutside")
 	{
@@ -42,6 +43,9 @@ void Player::DieFrom(std::string something)
 		Message msg("1-2-3-1-1");
 		msg.ShowMessage();
 	}
+
+	Message restartMessage("restart");
+	restartMessage.ShowMessage();
 
 }
 
@@ -221,6 +225,8 @@ void Player::HopeFor(std::string something)
 	{
 		Message msg("1-2-3-2-2-3-2-2-2-2-2");
 		msg.ShowMessage();
+		Message congatsMessage("congrats");
+		congatsMessage.ShowMessage();
 	}
 }
 

@@ -1,16 +1,25 @@
-﻿Build started 5.6.2014 г. 21:27:16.
-     1>Project "D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\TextGameOOP\TextGameOOP.vcxproj" on node 2 (Build target(s)).
+﻿Build started 19.6.2014 г. 1:26:43.
+     1>Project "D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP - WorkingGameplay+Restart+Ending\TextGameOOP\TextGameOOP.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Message.cpp Player.cpp PlayerBelongings.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Message.cpp Option.cpp Player.cpp PlayerBelongings.cpp
          Game.cpp
-     1>d:\icho\documents\visual studio 2013\projects\textgameoop\textgameoop\Option.h(38): warning C4018: '<' : signed/unsigned mismatch
+     1>Game.cpp(30): warning C4930: 'GameObjects gameObjects(void)': prototyped function not called (was a variable definition intended?)
          Message.cpp
+         Option.cpp
+     1>Option.cpp(30): warning C4018: '<' : signed/unsigned mismatch
          Player.cpp
          PlayerBelongings.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\Release\TextGameOOP.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\Release\TextGameOOP.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\Release\TextGameOOP.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP - WorkingGameplay+Restart+Ending\Release\TextGameOOP.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP - WorkingGameplay+Restart+Ending\Release\TextGameOOP.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP - WorkingGameplay+Restart+Ending\Release\TextGameOOP.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
          Release\Message.obj
+         Release\Option.obj
          Release\Player.obj
          Release\PlayerBelongings.obj
          Generating code
          Finished generating code
+         TextGameOOP.vcxproj -> D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP - WorkingGameplay+Restart+Ending\Release\TextGameOOP.exe
+     1>Done Building Project "D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP - WorkingGameplay+Restart+Ending\TextGameOOP\TextGameOOP.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28

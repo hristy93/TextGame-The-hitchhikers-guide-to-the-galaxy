@@ -11,6 +11,7 @@ class Game : public GameObjects
 {
 private:
 	bool ended = false;
+	bool finished = false;
 public:
 	Game() 
 	{
@@ -18,6 +19,8 @@ public:
 	}
 	//void ShowMessage(std::string messageNum);
 	void Run();
+	void Restart();
+
 
 	/*static Gown* gown ;
 	static Toothbrush* toothbrush;

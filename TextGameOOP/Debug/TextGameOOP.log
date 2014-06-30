@@ -1,9 +1,16 @@
-﻿Build started 18.6.2014 г. 22:30:50.
+﻿Build started 19.6.2014 г. 1:04:48.
      1>Project "D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\TextGameOOP\TextGameOOP.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Player.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp Message.cpp Option.cpp Player.cpp
+         Option.cpp
+     1>d:\icho\documents\visual studio 2013\projects\textgameoop\textgameoop\option.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
          Player.cpp
-     1>d:\icho\documents\visual studio 2013\projects\textgameoop\textgameoop\option.h(41): warning C4018: '<' : signed/unsigned mismatch
+         Message.cpp
+         Game.cpp
+     1>d:\icho\documents\visual studio 2013\projects\textgameoop\textgameoop\game.cpp(30): warning C4930: 'GameObjects gameObjects(void)': prototyped function not called (was a variable definition intended?)
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\Debug\TextGameOOP.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\Debug\TextGameOOP.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Icho\Documents\Visual Studio 2013\Projects\TextGameOOP\Debug\TextGameOOP.lib" /MACHINE:X86 Debug\Game.obj
          Debug\Message.obj
@@ -15,4 +22,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.79
+Time Elapsed 00:00:02.02
