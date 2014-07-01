@@ -1,8 +1,9 @@
 #include <iostream>
 #include <string>
+#include <ctype.h>
 #include "Game.h"
 //#include "PlayerBelongings.h"
-//#include "Message.h"
+#include "Message.h"
 #include "Player.h"
 #include "Option.h"
 
@@ -28,19 +29,33 @@ void Game::Run()
 
 	Player player;
 	GameObjects gameObjects();
-	int choice;
+	//int choice;
 	string optionNum = "1";
 	string messageNum = "";
+	string choiceLimit;
+	string choice;
 	ended = false;
 	finished = false;
 	player.WakeUp();
 	while (!ended && !finished)
 	{
-		cin >> choice;
-		char ch = '0' + choice;
+		choiceLimit = Message::optionCount;
+		do
+		{
+			getline(cin, choice);
+		} while (choice < "1" || choice > choiceLimit);
+		//while (!isdigit(choice) || choice > choiceLimit);
+		string ch = choice;
 		optionNum = Option::lastOption;
 		optionNum += "-";
 		optionNum += ch;
+
+		/*cin >> choice;
+		char ch = '0' + choice;
+		optionNum = Option::lastOption;
+		optionNum += "-";
+		optionNum += ch;*/
+
 		Option option(optionNum);
 		option.ChooseOption();
 		string optionName = option.GetOptionName();
@@ -169,7 +184,6 @@ void Game::Run()
 			}
 		}
 
-		//!!! da go opravq za otdelnite slu4ai
 		if (optionName == "DieFrom")
 		{
 			player.DieFrom(optionAdditionalInfo);
@@ -196,23 +210,37 @@ void Game::Run()
 			}
 		}
 	}
-	if (ended || finished)
+
+	RestartOrExit(ended, finished);
+
+	/*if (ended || finished)
 	{
-		int result;
-		do
-		{
-			cin >> result;
-		}
-		while (result != 1 && result != 2);
-		if (result == 1)
-		{
-			Game::Restart();
-		}
+	string result;
+	do
+	{
+	getline(cin, result);
+	} while (result != "1" && result != "2");
+	if (result == "1")
+	{
+	Game::Restart();
 	}
+	}*/
+
+	//	/*int result;
+	//	do
+	//	{
+	//		cin >> result;
+	//	}
+	//	while (result != 1 && result != 2);
+	//	if (result == 1)
+	//	{
+	//		Game::Restart();
+	//	}*/
+	//}
 
 
 
-
+	//TOVA DA GO ZAPAZQ !!!
 	/*int choice;
 	string messageNum = "1";
 	while (!this->ended)
@@ -269,10 +297,21 @@ void Game::Run()
 	return;*/
 }
 
-void Game::Restart()
+void Game::RestartOrExit(bool ended, bool finished)
 {
-	system("cls");
-	Game::Run();
+	if (ended || finished)
+	{
+		string result;
+		do
+		{
+			getline(cin, result);
+		} while (result != "1" && result != "2");
+		if (result == "1")
+		{
+			system("cls");
+			Game::Run();
+		}
+	}
 }
 
 int main()

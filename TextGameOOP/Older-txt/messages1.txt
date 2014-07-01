@@ -1,0 +1,46 @@
+1-0
+You wake up. The room is spinning very gently round your head. Or at least it would be if you could see it which you can't. It is pitch black.\n(1)Bump into everything and kill yourself.\n(2)Turn on the lights
+1-0#
+1-1
+You can’t stay in bed all day, so you stand up very slowly. Unfortunately you hit you head on the washbasin while you stagger to your feet. Poor guy, you should’ve turn on the lights.\nAstoundingly, a bulldozer pokes through your wall. However, you have no time for surprise because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass. You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.\nBetter luck next life.
+1-1#
+1-2
+The bedroom is a mess.\nIt is a small bedroom with a faded carpet and old wallpaper. There is a washbasin, a chair with a tatty dressing gown slung over it, and a window with the curtains drawn. Near the exit leading is a phone.There is a flathead screwdriver (outside the bed) and a toothbrush (outside the bed).\n(1)Stand up and get the toothbrush.\n(2)Stand up and get the flathead screwdriver.\n(3)Stand up and get the gown.\n(4)Stand up and use the phone.
+1-2#
+1-2-1
+It’s very difficult, but you manage to get up. The room is still spinning. It dips and sways a little. You lunge for the toothbrush, but the room spins nauseatingly away. The floor gives you a light tap on the forehead.\n(1)Stand up and get the toothbrush.\n(2)Stand up and get the flathead screwdriver.\n(3)Stand up and get the gown.\n(4)Stand up and use the phone.
+1-2-1#
+1-2-2
+It’s very difficult, but you manage to get up. The room is still spinning. It dips and sways a little. You try to get the flathead screwdriver, but it dances by you like a thing possessed and you can get a hold of it. \n(1)Stand up and get the toothbrush.\n(2)Stand up and get the flathead screwdriver.\n(3)Stand up and get the gown.\n(4)Stand up and use the phone.
+1-2-2#
+1-2-3
+It’s very difficult, but you manage to get up. The room is still spinning. It dips and sways a little. Luckily, the gown is large enough for you to get hold of. You notice something in the pocket.\n(1)Leave it there and take something else.\n(2)Open the gown.
+1-2-3#
+1-2-4
+It’s very difficult, but you manage to get up. The room is still spinning. It dips and sways a little. You can barely walk, let alone to speak so you realize that you must abandon that quest  
+1-2-4#          
+1-2-3-1[Nothing]
+1-2-3-2Opening your gown reveals a thing your aunt gave you which you don't know what it is, a buffered analgesic, and pocket fluff.\n(1) Take the pocket fluff and play with it.\n(2) Take the analgesic.
+1-2-3-2-1Something
+1-2-3-2-2You swallow the tablet. After a few seconds the room begins to calm down and behave in an orderly manner. Your terrible headache goes. Now you can get your belongings.\n(1)Take the toothbrush.\n(2)Take the flathead screwdriver.\n(3)Use the phone.
+1-2-3-2-2-1As you pick up the toothbrush a tree outside the window collapses. There is no causal relationship between these two events.\n(1)Take the toothbrush.\n(2)Take the flathead screwdriver.\n(3)Use the phone.
+1-2-3-2-2-2Ass you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn’t that strange!? \n(1)Take the toothbrush.\n(2)Take the flathead screwdriver.\n(3)Use the phone.
+1-2-3-2-2-3You pick up the receiver. A moment later, the dialing tone is suddenly cut off. Glancing through the window you can't help but notice the large old oak tree of which you are particularly fond crashing down through the phone cable. Shouldn't you be taking more interest in events in the world around you? While you've got it...?\n(1)Look through the window\n(2)Open the door and look outside.
+1-2-3-2-2-3-1As you part your curtains you see that it's a bright morning, the sun is shining, the birds are singing, the meadows are blooming, and a large yellow bulldozer is advancing on your home.\n(1)Stay here and die a horrible death.\n(2)Go outside.
+1-2-3-2-2-3-2As you slam the door open you see that it's a bright morning, the sun is shining, the birds are singing, the meadows are blooming, and a large yellow bulldozer is advancing on your home.\n(1)Stay here and die a horrible death.\n(2)Go outside.
+1-2-3-2-2-3-2-1After a few minutes the bulldozer destroys the house and you in it. You should have gone outside when you had the chance …\nYou are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.\Better luck next life.
+
+ 1-2-3-2-2-3-2-2You rush down the stairs in panic. This is the enclosed front porch of your home. On the doormat is a pile of junk mail.\n(1)Pick up the mail and read it very quickly.\n(2)Run as fast as you can and stop the bulldozer.
+1-2-3-2-2-3-2-2-1There are many pieces of mail. Hidden underneath is an official letter from the local council, dated some two years ago and inexplicably not delivered till now, explaining that a demolition order has been served on your home. The date of demolition is today's date.\nAstoundingly, a bulldozer pokes through your wall. However, you have no time for surprise because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass. You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.\nBetter luck next life.
+1-2-3-2-2-3-2-2-2You’re already outside and all that lies between your home and the huge yellow bulldozer bearing down on it is a few yards of mud.\nMr. Prosser, from the local council, is standing on the other side of the bulldozer. He seems to be wearing a digital watch. He looks startled to see you emerge, and yells at you to get out of the way. The bulldozer rumbles slowly toward your home.\n(1)Talk to Mr. Prosser and try to reason with him.\n(2)Stop the bulldozer.
+1-2-3-2-2-3-2-2-2-1You are devastated that Mr. Prosser refused to negotiate. Meanwhile, the bulldozer piles into the side of your home.\nYour home collapses in a cloud of dust, and a stray flying brick hits you squarely on the back of the head. You try to think of some suitable last words, but what with the confusion of the moment and the spinning of your head, you are unable to compose anything pithy and expire in silence.\nOn your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.\nBetter luck next life.
+
+1-2-3-2-2-3-2-2-2-2You lie down in the path of the advancing bulldozer. Prosser yells at you to for crissake move!!!\n(1)You are so scared to die down here in the mud, so you stand up crying like a little girl.\n(2)You do not move an inch and hope for same miracle.
+1-2-3-2-2-3-2-2-2-2-1You are safe! Prosser heaves a visible sigh of relief, shakes his head and wipes his brow. The bulldozer piles into the side of your home.\nYour home collapses in a cloud of dust, and a stray flying brick hits you squarely on the back of the head. You try to think of some suitable last words, but what with the confusion of the moment and the spinning of your head, you are unable to compose anything pithy and expire in silence.\nOn your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.\nBetter luck next life.
+
+1-2-3-2-2-3-2-2-2-2-2Ass you are waiting to be smashed by the bulldozer a man offers you help. His says that his name is Ford. To be continued …
+
+
+
+
+

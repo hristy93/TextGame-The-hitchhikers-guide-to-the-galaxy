@@ -1,6 +1,8 @@
 #include "Player.h"
 #include "Message.h"
 #include "Game.h"
+#include <conio.h>
+#include <windows.h>
 #include <typeinfo>
 
 void Player::WakeUp()
@@ -12,11 +14,13 @@ void Player::WakeUp()
 
 void Player::DieFrom(std::string something)
 {
+	Message smileyMessage("smiley");
+	smileyMessage.ShowMessage();
+	Sleep(3000);
 	if (something == "Laziness")
 	{
 		Message msg("1-1");
-		msg.ShowMessage();
-		
+		msg.ShowMessage();	
 	}
 	if (something == "RefusingToGoOutside")
 	{
@@ -43,7 +47,6 @@ void Player::DieFrom(std::string something)
 		Message msg("1-2-3-1-1");
 		msg.ShowMessage();
 	}
-
 	Message restartMessage("restart");
 	restartMessage.ShowMessage();
 

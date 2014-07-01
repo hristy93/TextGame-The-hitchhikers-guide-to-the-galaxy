@@ -27,7 +27,14 @@ void Option::ChooseOption()
 		}
 		if (toRead)
 		{
-			for (int i = 0; i < line.size(); i++)
+			int i = line.find("-");
+			if (i != std::string::npos)
+			{
+				haveSpecifier = true;
+				this->optionName = line.substr(0, i);
+				this->optionAdditionalInfo = line.substr(i + 1, line.size());
+			}
+			/*for (int i = 0; i < line.size(); i++)
 			{
 				if (line[i] == '-')
 				{
@@ -35,7 +42,7 @@ void Option::ChooseOption()
 					this->optionName = line.substr(0, i);
 					this->optionAdditionalInfo = line.substr(i + 1, line.size());
 				}
-			}
+			}*/
 			if (!haveSpecifier)
 			{
 				this->optionName = line;

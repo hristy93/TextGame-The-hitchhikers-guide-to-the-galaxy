@@ -5,7 +5,7 @@ You wake up. The room is spinning very gently round your head. Or at least it wo
 1#
 
 1-1
-You can’t stay in bed all day, so you stand up very slowly. Unfortunately you hit your head on the washbasin while you stagger to your feet. Poor guy, you should’ve turn on the lights.
+You can't stay in bed all day, so you stand up very slowly. Unfortunately you hit your head on the washbasin while you stagger to your feet. Poor guy, you should've turn on the lights.
 Astoundingly, a bulldozer pokes through your wall. However, you have no time for surprise, because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass.
 You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.
 Better luck next life.
@@ -13,7 +13,7 @@ Better luck next life.
 
 1-2
 The bedroom is a mess.
-It is a small bedroom with a faded carpet and old wallpaper. There is a washbasin, a chair with a tatty dressing gown slung over it, and a window with the curtains drawn. Near the exit leading is a phone. There is a flathead screwdriver (outside the bed) and a toothbrush (outside the bed). It is very difficult, but you manage to get up. 
+It is a small bedroom with a faded carpet and old wallpaper. There is a washbasin, a chair with a tatty dressing gown slung over it, and a window with the curtains drawn. Near the exit leading is a phone. There is a flathead screwdriver and a toothbrush. It is very difficult, but you manage to get up. 
 (1)Get the toothbrush.
 (2)Get the flathead screwdriver.
 (3)Get the gown.
@@ -48,7 +48,7 @@ The room is spinning even more. You should find something to relieve your hazzyn
 1-2-3-1#
 
 1-2-3-1-1
-While you are enjoying the softness of the pocket pluff you accidentally slip down and  hit your head on the washbasin while you stagger to your feet. Poor guy, you should’ve turn on the lights.
+While you are enjoying the softness of the pocket pluff you accidentally slip down and  hit your head on the washbasin while you stagger to your feet. 
 Astoundingly, a bulldozer pokes through your wall. However, you have no time for surprise because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass. You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.
 Better luck next life.
 1-2-3-1-1#
@@ -87,7 +87,7 @@ Opening your gown reveals a thing your aunt gave you which you don't know what i
 1-2-3-2#
 
 1-2-3-2-1
-While you are enjoying the softness of the pocket pluff you accidentally slip down and  hit your head on the washbasin while you stagger to your feet. Poor guy, you should’ve turn on the lights.
+While you are enjoying the softness of the pocket pluff you accidentally slip down and  hit your head on the washbasin while you stagger to your feet. Poor guy, you should've turn on the lights.
 Astoundingly, a bulldozer pokes through your wall. However, you have no time for surprise because the ceiling is collapsing on you as your home is unexpectedly demolished to make way for a new bypass. You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.
 Better luck next life.
 1-2-3-2-1#
@@ -135,12 +135,12 @@ As you part your curtains you see that it's a bright morning, the sun is shining
 
 1-2-3-2-2-3-2
 As you slam the door open you see that it's a bright morning, the sun is shining, the birds are singing, the meadows are blooming, and a large yellow bulldozer is advancing on your home.
-(1)Stay here and die a horrible death.
+(1)Stay here and call the police for help.
 (2)Go outside.
 1-2-3-2-2-3-2#
 
 1-2-3-2-2-3-2-1
-After a few minutes the bulldozer destroys the house and you in it. You should have gone outside when you had the chance ...
+After a few minutes the bulldozer destroys the house and you in it while you are yelling to a police officer. You should have gone outside when you had the chance ...
 You are seriously injured in the process, but on your way to the hospital a fleet of Vogon Constructor ships unexpectedly arrives and demolishes the Earth to make way for a new hyperspace bypass.
 Better luck next life.
 1-2-3-2-2-3-2-1#
@@ -158,10 +158,10 @@ Better luck next life.
 1-2-3-2-2-3-2-2-1#
 
 1-2-3-2-2-3-2-2-2
-You’re already outside and all that lies between your home and the huge yellow bulldozer bearing down on it is a few yards of mud.
+You're already outside and all that lies between your home and the huge yellow bulldozer bearing down on it is a few yards of mud.
 Mr. Prosser, from the local council, is standing on the other side of the bulldozer. He seems to be wearing a digital watch. He looks startled to see you emerge, and yells at you to get out of the way. The bulldozer rumbles slowly toward your home.
 (1)Talk to Mr. Prosser and try to reason with him.
-(2)Stop the bulldozer.
+(2)Stop the bulldozer whatever the cost.
 1-2-3-2-2-3-2-2-2#
 
 1-2-3-2-2-3-2-2-2-1
@@ -172,7 +172,7 @@ Better luck next life.
 1-2-3-2-2-3-2-2-2-1#
 
 1-2-3-2-2-3-2-2-2-2
-You lie down in the path of the advancing bulldozer. Prosser yells at you to for crissake move!!!
+You can't think of anything sensible so lie down in the path of the advancing bulldozer. Prosser yells at you to for crissake move!!!
 (1)You are so scared to die down here in the mud, so you stand up crying like a little girl.
 (2)You do not move an inch and hope for same miracle.
 1-2-3-2-2-3-2-2-2-2#
@@ -189,17 +189,58 @@ Ass you are waiting to be smashed by the bulldozer a man offers you help. His sa
 To be continued . . .
 1-2-3-2-2-3-2-2-2-2-2#
 
+smiley
+                           oooo$$$$$$$$$$$$oooo
+                       oo$$$$$$$$$$$$$$$$$$$$$$$$o
+                    oo$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o         o$   $$ o$
+    o $ oo        o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$o       $$ $$ $$o$
+ oo $ $ "$      o$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$o       $$$o$$o$
+ "$$$$$$o$     o$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$o    $$$$$$$$
+   $$$$$$$    $$$$$$$$$$$      $$$$$$$$$$$      $$$$$$$$$$$$$$$$$$$$$$$
+   $$$$$$$$$$$$$$$$$$$$$$$    $$$$$$$$$$$$$    $$$$$$$$$$$$$$  """$$$
+    "$$$""""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$
+     $$$   o$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     "$$$o
+    o$$"   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$       $$$o
+    $$$    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$" "$$$$$$ooooo$$$$o
+   o$$$oooo$$$$$  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$   o$$$$$$$$$$$$$$$$$
+   $$$$$$$$"$$$$   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$     $$$$""""""""
+  """"       $$$$    "$$$$$$$$$$$$$$$$$$$$$$$$$$$$"      o$$$
+             "$$$o     """$$$$$$$$$$$$$$$$$$"$$"         $$$
+               $$$o          "$$""$$$$$$""""           o$$$
+                $$$$o                                o$$$"
+                 "$$$$o      o$$$$$$o"$$$$o        o$$$$
+                   "$$$$$oo     ""$$$$o$$$$$o   o$$$$""
+                      ""$$$$$oooo  "$$$o$$$$$$$$$"""
+                         ""$$$$$$$oo $$$$$$$$$$
+                                 """"$$$$$$$$$$$
+                                     $$$$$$$$$$$$
+                                      $$$$$$$$$$"
+                                       "$$$""""
+smiley#
+
 restart
-DON'T PANIC ! 
-Do you wish to play again and save yourself or you'll let the freakin' Vogons destroy the Earth.
+
+88888b   d888b  888b  88 8P 888888    88888b    888     888b  88 88  d888b 88
+88   88 88   88 88`8b 88      88      88   88  88 88    88`8b 88 88 88   ` 88
+88   88 88   88 88 88 88      88      88888P  88   88   88 88 88 88 88     88
+88   88 88   88 88 `8b88      88      88     d8888888b  88 `8b88 88 88     ""
+88888P   `888P  88  `888      88      88    88       8b 88  `888 88  `888P 88
+
+Do you wish to play again to save yourself and maybe the planet or you'll let the freakin' Vogons destroy the Earth.
 (1)Play again
 (2)Exit
 restart#
 
 congrats
-DON'T PANIC ! 
-Congrats - you've survied and later on you will be saved by Ford. He will hitchhike both of you to a Vogon ship seconds before the Earth is destroyed.Sorry but it can't be saved.
-So,you'll ask what's gonna happen to you next. To find you go and read (watch) The Hitchhiker's Guide to the Galaxy. Hope you enjoyed the game :)
+
+88888b   d888b  888b  88 8P 888888    88888b    888     888b  88 88  d888b 88
+88   88 88   88 88`8b 88      88      88   88  88 88    88`8b 88 88 88   ` 88
+88   88 88   88 88 88 88      88      88888P  88   88   88 88 88 88 88     88
+88   88 88   88 88 `8b88      88      88     d8888888b  88 `8b88 88 88     ""
+88888P   `888P  88  `888      88      88    88       8b 88  `888 88  `888P 88
+
+Congrats - you've survied and later on you will be saved by Ford. He will hitchhike both of you to a Vogon ship seconds before the Earth is destroyed. Sorry but it can't be saved.
+So, you'll ask what's gonna happen to you next. To find you go and read or watch The Hitchhiker's Guide to the Galaxy. Hope you enjoyed the game :)
 (1)Play again
 (2)Exit
 congrats#

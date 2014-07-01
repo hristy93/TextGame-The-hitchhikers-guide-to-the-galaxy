@@ -19,7 +19,7 @@ public:
 	}
 	//void ShowMessage(std::string messageNum);
 	void Run();
-	void Restart();
+	void RestartOrExit(bool ended, bool finished);
 
 
 	/*static Gown* gown ;

@@ -11,11 +11,12 @@ class Message
 {
 private:
 	std::string messageNum;
-	bool isEndingMessage = false;
+	//bool isEndingMessage = false;
 	//Message** nextMessage;
 public:
 	Message(std::string messageNum);
 	void ShowMessage();
+	static char optionCount;
 
 	//std::string GetMessageNum() const
 	//{
