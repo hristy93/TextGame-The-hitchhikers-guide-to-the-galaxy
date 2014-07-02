@@ -15,7 +15,6 @@ void Option::ChooseOption()
 	bool toRead = false;
 	bool haveSpecifier = false;
 	std::ifstream myfile("options.txt");
-	//system("CLS");
 	std::string stopMarker = this->optionNum + '#';
 	myfile.seekg(std::ios::beg);
 	while (getline(myfile, line))
@@ -34,22 +33,10 @@ void Option::ChooseOption()
 				this->optionName = line.substr(0, i);
 				this->optionAdditionalInfo = line.substr(i + 1, line.size());
 			}
-			/*for (int i = 0; i < line.size(); i++)
-			{
-				if (line[i] == '-')
-				{
-					haveSpecifier = true;
-					this->optionName = line.substr(0, i);
-					this->optionAdditionalInfo = line.substr(i + 1, line.size());
-				}
-			}*/
 			if (!haveSpecifier)
 			{
 				this->optionName = line;
 			}
-			std::cout << "optionNum: " << this->optionNum << std::endl;
-			std::cout << "optionName: " << this->optionName << std::endl;
-			std::cout << "optionAdditionalInfo: " << this->optionAdditionalInfo << std::endl;
 		}
 		if (line == this->optionNum)
 		{

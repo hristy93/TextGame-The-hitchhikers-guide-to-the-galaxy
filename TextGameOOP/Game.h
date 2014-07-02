@@ -15,32 +15,10 @@ private:
 public:
 	Game() 
 	{
-		//code
+
 	}
-	//void ShowMessage(std::string messageNum);
 	void Run();
 	void RestartOrExit(bool ended, bool finished);
-
-
-	/*static Gown* gown ;
-	static Toothbrush* toothbrush;
-	static Phone* phone;
-	static Screwdriver* screwdriver;
-	static Door* door;
-	static Lamp* lamp;
-	static Analgesic* analgesic;*/
-	//void ShowOption();
-	//void Restart();
 };
-
-//class Bulldozer
-//{
-//private:
-//	bool isFound = false;
-//public:
-//	class Bulldozer();
-//};
-//
-
 
 #endif

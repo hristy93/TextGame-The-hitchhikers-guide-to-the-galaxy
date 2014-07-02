@@ -13,13 +13,23 @@ protected:
 	Door* door = new Door;
 	Lamp* lamp = new Lamp;
 	Analgesic* analgesic = new Analgesic;
-	//Gown* gown;
-	//Toothbrush* toothbrush;
-	//Phone* phone;
-	//Screwdriver* screwdriver;
-	//Door* door;
-	//Lamp* lamp;
-	//Analgesic* analgesic;
+public:
+	GameObjects()
+	{
+
+	}
+
+	~GameObjects()
+	{
+		std::cout << "Destruct" << std::endl;
+		delete gown;
+		delete toothbrush;
+		delete phone;
+		delete screwdriver;
+		delete door;
+		delete lamp;
+		delete analgesic;
+	}
 };
 
 #endif

@@ -165,5 +165,4 @@ public:
 	}
 };
 
-
 #endif

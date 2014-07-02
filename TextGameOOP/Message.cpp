@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include<consoleapi.h>
+#include <consoleapi.h>
 #include "Message.h"
 using namespace std;
 
@@ -8,6 +8,7 @@ char Message::optionCount = ' ';
 
 Message::Message(std::string messageNum)
 {
+
 	this->messageNum = messageNum;
 	Option::lastOption = messageNum;
 }
@@ -70,15 +71,12 @@ void OutputText(std::string s)
 
 void Message::ShowMessage()
 {
-	//std::string endingMessage[6] = { "1-1", "1-2-3-2-2-3-2-1",
-	//	"1-2-3-2-2-3-2-2-1", "1-2-3-2-2-3-2-2-2-1", "1-2-3-2-2-3-2-2-2-2-1" };
 	std::string line;
 	bool toPrint = false;
 	int optionIntCount = 0;
 	std::ifstream myfile("messages.txt");
-	//system("CLS");
 	myfile.seekg(std::ios::beg);
-	std::cout << "messageNum: " << this->messageNum << std::endl;
+	//std::cout << "messageNum: " << this->messageNum << std::endl;
 	while (getline(myfile, line))
 	{
 		if (line == this->messageNum + '#')
@@ -101,9 +99,4 @@ void Message::ShowMessage()
 		}
 	}
 	optionCount = '0' + optionIntCount;
-	/*for (int i = 0; i < 5; i++)
-	{
-	if (this->messageNum == endingMessage[i])
-	isEndingMessage = true;
-	}*/
 }
