@@ -106,12 +106,12 @@ As you pick up the toothbrush a tree outside the window collapses. There is no c
 1-2-3-2-2-1#
 
 1-2-3-2-2-1-1
-Ass you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn't that strange!? 
+As you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn't that strange!? 
 (1)Use the phone.
 1-2-3-2-2-1-1#
 
 1-2-3-2-2-2
-Ass you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn't that strange!? 
+As you pick it up, you hear an unusual sound outside. It sounds like a tree falling down. Isn't that strange!? 
 (1)Take the toothbrush.
 (2)Use the phone.
 1-2-3-2-2-2#
