@@ -1,4 +1,4 @@
-TextGame - The hitchhikers guide to the galaxy
-============================================
-This is my project for the end of the second semester in the OOP course in FMI in Sofia University.
-It works with Visual Studio 2013.
+# The hitchhiker's guide to the galaxy
+
+## Description
+This a text based console game The hitchhiker's guide to the galaxy written in C++. It's a course project for the "OOP" course in FMI in Sofia University "St.Kliment Ohridski".
